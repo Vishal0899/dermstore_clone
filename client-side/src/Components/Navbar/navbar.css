@@ -1,7 +1,7 @@
 /* #navbar{
     position:absolute;
 } */
- @import "./reset.css"; 
+@import "./reset.css";
 
 * {
 	font-family: "lato regular", Helvetica, Arial, sans-serif;
@@ -31,7 +31,7 @@ body {
 	letter-spacing: 0.1px;
 	float: left;
 	color: rgb(71, 71, 71);
-	top: 92px;
+	top: 90px;
 }
 .loginButton {
 	font-family: "lato regular", Helvetica, Arial, sans-serif;

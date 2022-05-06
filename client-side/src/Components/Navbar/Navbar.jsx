@@ -83,83 +83,84 @@ export default function Navbar() {
 						</div>
 					</div>
 
-					<div
-						id="logos"
-						onMouseEnter={() => {
-							setDropdownLogin(true);
-						}}
-						onMouseLeave={() => setDropdownLogin(false)}>
-						<Link
-							to=""
-							className="link"
-							style={{
-								display: "flex",
-								justifyContent: "space-between",
-								width: "80px",
-								fontSize: "14px",
-							}}>
-							<div>
-								<svg
-									className="UserDropDowns_icon_06"
-									width="22"
-									height="22"
-									viewBox="0 0 24 24"
-									stroke="#2F3337"
-									fill="#2F3337">
-									<title>User</title>
-									<path
-										d="M1 23c0-5.523 4.477-10 10-10h2c5.523 0 10 4.477 10 10M12 13a6 6 0 100-12 6 6 0 000 12z"
-										stroke="inherit"
-										fill="none"
-										strokeWidth="2"
-										strokeMiterlimit="10"
-										strokeLinecap="round"
-										strokeLinejoin="round"></path>
-								</svg>
-							</div>
-							<p style={{ marginTop: "12px" }}>Account</p>
-						</Link>
-						{dropdownLogin && (
-							<div id="drop_login">
-								{dropLoginData.map((e) => (
-									<div key={e.id}>
-										<h3
-											style={{
-												padding: "8px",
-												fontWeight: "bold",
-												fontSize: "25px",
-											}}>
-											<Link to={e.loginButton.to}>
-												<button className="loginButton">
-													{e.loginButton.title}
-												</button>
-											</Link>
-											<Link to={e.registerButton.to}>
-												<button className="registerButton">
-													{e.registerButton.title}
-												</button>
-											</Link>
-										</h3>
-										<div>
-											{e.loginMenu.map((el) => (
-												<div key={el.id}>
-													<p id="logoMenu">
-														<Link
-															to={el.to}
-															style={{
-																textDecoration: "none",
-																color: "black",
-															}}>
-															{el.title}
-														</Link>
-													</p>
-												</div>
-											))}
+					<div id="logos">
+						<div
+							onMouseEnter={() => {
+								setDropdownLogin(true);
+							}}
+							onMouseLeave={() => setDropdownLogin(false)}>
+							<Link
+								to=""
+								className="link"
+								style={{
+									display: "flex",
+									justifyContent: "space-between",
+									width: "80px",
+									fontSize: "14px",
+								}}>
+								<div>
+									<svg
+										className="UserDropDowns_icon_06"
+										width="22"
+										height="22"
+										viewBox="0 0 24 24"
+										stroke="#2F3337"
+										fill="#2F3337">
+										<title>User</title>
+										<path
+											d="M1 23c0-5.523 4.477-10 10-10h2c5.523 0 10 4.477 10 10M12 13a6 6 0 100-12 6 6 0 000 12z"
+											stroke="inherit"
+											fill="none"
+											strokeWidth="2"
+											strokeMiterlimit="10"
+											strokeLinecap="round"
+											strokeLinejoin="round"></path>
+									</svg>
+								</div>
+								<p style={{ marginTop: "12px" }}>Account</p>
+							</Link>
+							{dropdownLogin && (
+								<div id="drop_login">
+									{dropLoginData.map((e) => (
+										<div key={e.id}>
+											<h3
+												style={{
+													padding: "8px",
+													fontWeight: "bold",
+													fontSize: "25px",
+												}}>
+												<Link to={e.loginButton.to}>
+													<button className="loginButton">
+														{e.loginButton.title}
+													</button>
+												</Link>
+												<Link to={e.registerButton.to}>
+													<button className="registerButton">
+														{e.registerButton.title}
+													</button>
+												</Link>
+											</h3>
+											<div>
+												{e.loginMenu.map((el) => (
+													<div key={el.id}>
+														<p id="logoMenu">
+															<Link
+																to={el.to}
+																style={{
+																	textDecoration: "none",
+																	color: "black",
+																}}>
+																{el.title}
+															</Link>
+														</p>
+													</div>
+												))}
+											</div>
 										</div>
-									</div>
-								))}
-							</div>
-						)}
+									))}
+								</div>
+							)}
+						</div>
 
 						<Link
 							to=""
@@ -222,6 +223,7 @@ export default function Navbar() {
 						</div>
 					)}
 				</div>
+
 				<div
 					id="drop2"
 					onMouseEnter={() => {
