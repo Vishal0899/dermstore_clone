@@ -6,9 +6,10 @@
 #nav1 {
 	width: 100%;
 	height: 65px;
-/* border: 1px solid red;	 */
-	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
-		rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+	margin-top: 10px;
+	/* border: 1px solid red;	 */
+	/* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, */
+	/* rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
 }
 #nav1 > img {
 	width: 200px;
@@ -31,6 +32,7 @@
 	margin-left: 240px;
 	width: 30%;
 	height: auto;
+	padding: 2%;
 	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
 		rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
@@ -103,7 +105,6 @@ input {
 	font-size: 12px;
 	font-weight: bold;
 	text-align: center;
-	
 }
 #logopara {
 	width: 140px;
@@ -115,10 +116,9 @@ input {
 	justify-content: center;
 	text-decoration: none;
 }
-#logopara>a>img{
+#logopara > a > img {
 	margin-top: 5px;
 	margin-left: -2%;
-
 }
 
 #continue > a {
@@ -147,7 +147,7 @@ input {
 	margin-top: 20px;
 	margin-left: 20px;
 	text-align: center;
-	justify-content: center
+	justify-content: center;
 }
 #cus1 {
 	font-family: sans-serif;
@@ -156,12 +156,12 @@ input {
 	margin-top: 2%;
 	margin-left: 10px;
 }
-.continue_2{
+.continue_2 {
 	width: 80%;
-	margin-top:10%;
+	margin-top: 10%;
 	margin-left: 10%;
-    height: 40px;
+	height: 40px;
 	background-color: black;
 	color: white;
-	text-decoration: none
+	text-decoration: none;
 }
