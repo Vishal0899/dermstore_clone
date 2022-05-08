@@ -481,9 +481,6 @@ export const Productpage = () => {
           })}
         </div>
       </div>
-      <div>
-        <Link to="/wishlist">Go To Wishlist</Link>
-      </div>
     </div>
   );
 };
