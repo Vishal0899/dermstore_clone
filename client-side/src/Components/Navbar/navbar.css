@@ -84,6 +84,57 @@ body {
 	text-transform: uppercase;
 	box-sizing: border-box;
 }
+.logoutButton {
+	font-family: "lato regular", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.2;
+	margin-bottom: 10px;
+
+	color: #000;
+	font-weight: 400;
+	letter-spacing: 0;
+	text-transform: none;
+	box-sizing: border-box;
+	background-color: #222;
+	color: #fff;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #222;
+	border-radius: 1px;
+	display: inline-block;
+	text-decoration: none;
+	transition: background-color 0.2s;
+	padding: 9.6px 72px;
+	cursor: pointer;
+	text-align: center;
+	text-transform: uppercase;
+	box-sizing: border-box;
+}
+.logoutButton:hover {
+	font-family: "lato regular", Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 1.2;
+	margin-bottom: 10px;
+
+	font-weight: 400;
+	letter-spacing: 0;
+	text-transform: none;
+	box-sizing: border-box;
+	background-color: rgb(110, 103, 103);
+	color: #fff;
+	border-width: 2px;
+	border-style: solid;
+	border-color: #222;
+	border-radius: 1px;
+	display: inline-block;
+	text-decoration: none;
+	transition: background-color 0.2s;
+	padding: 9.6px 72px;
+	cursor: pointer;
+	text-align: center;
+	text-transform: uppercase;
+	box-sizing: border-box;
+}
 .registerButton {
 	font-family: "lato regular", Helvetica, Arial, sans-serif;
 	font-size: 14px;
@@ -328,7 +379,7 @@ body {
 	background-color: rgba(255, 255, 255);
 
 	width: min-content;
-	width: 49%;
+	width: 51%;
 	flex-wrap: wrap;
 
 	display: flex;
@@ -350,7 +401,7 @@ body {
 
 	margin-top: 0px;
 	width: min-content;
-	width: 42%;
+	width: 45%;
 	flex-wrap: wrap;
 
 	display: flex;
@@ -390,7 +441,7 @@ body {
 	height: fit-content;
 	margin-top: 0px;
 	width: min-content;
-	width: 13%;
+	width: 14%;
 	flex-wrap: wrap;
 	background-color: rgba(255, 255, 255);
 

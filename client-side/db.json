@@ -1,0 +1,59 @@
+{
+  "usersInfo": [
+    {
+      "fullName": "Mohd Rihan Khan",
+      "email": "rihan807757@gmail.com",
+      "confirmEmail": "rihan807757@gmail.com",
+      "password": "12345",
+      "confirmPassword": "12345",
+      "mobile": "08588963095",
+      "referralCode": "23456",
+      "reward": true,
+      "id": 1
+    },
+    {
+      "fullName": "Mohd Rihan Khan",
+      "email": "rihan807757@gmail.com",
+      "confirmEmail": "rihan807757@gmail.com",
+      "password": "12345",
+      "confirmPassword": "12345",
+      "mobile": "08588963095",
+      "referralCode": "12321",
+      "reward": true,
+      "id": 2
+    },
+    {
+      "fullName": "akash",
+      "email": "A@a.com",
+      "confirmEmail": "A@a.com",
+      "password": "123",
+      "confirmPassword": "123",
+      "mobile": "1234567890",
+      "referralCode": "000",
+      "reward": true,
+      "id": 3
+    },
+    {
+      "fullName": "Mohd Rihan Khan",
+      "email": "mhd.khan.rihan@gmail.com",
+      "confirmEmail": "mhd.khan.rihan@gmail.com",
+      "password": "12345",
+      "confirmPassword": "12345",
+      "mobile": "08588963095",
+      "referralCode": "43564",
+      "reward": true,
+      "id": 4
+    },
+    {
+      "fullName": "Mohd Rihan Khan",
+      "email": "mhd.khan.rihan@gmail.com",
+      "confirmEmail": "rihan807757@gmail.com",
+      "password": "123",
+      "confirmPassword": "123",
+      "mobile": "08588963095",
+      "referralCode": "34345",
+      "reward": true,
+      "id": 5
+    }
+  ]
+}

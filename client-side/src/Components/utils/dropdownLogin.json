@@ -1,8 +1,9 @@
 [
 	{
 		"id": 1,
-		"loginButton": { "title": "LOGIN", "to": "" },
-		"registerButton": { "title": "REGISTER", "to": "" },
+		"loginButton": { "title": "LOGIN", "to": "/login" },
+		"logoutButton": { "title": "LOGOUT" },
+		"registerButton": { "title": "REGISTER", "to": "Signup" },
 		"loginMenu": [
 			{ "id": 1, "title": "My Favorites", "to": "" },
 			{ "id": 2, "title": "Your Orders", "to": "" },

@@ -11,6 +11,8 @@ import dropEightData from "../utils/dropdownEight.json";
 import dropNineData from "../utils/dropdownNine.json";
 import dropTwelveData from "../utils/dropdownTwelve.json";
 import dropLoginData from "../utils/dropdownLogin.json";
+import { useContext } from "react";
+import { AuthContext } from "../Context/AuthContextProvider";
 
 export default function Navbar() {
 	const [dropdown1, setDropdown1] = useState(false);
@@ -24,7 +26,7 @@ export default function Navbar() {
 	const [dropdown12, setDropdown12] = useState(false);
 	const [dropdownLogin, setDropdownLogin] = useState(false);
 
-	console.log(dropLoginData);
+	const { isAuth } = useContext(AuthContext);
 
 	return (
 		<div id="navbar">
@@ -32,7 +34,7 @@ export default function Navbar() {
 			<div id="upper_navbar">
 				<div id="inside_upper_navbar">
 					<div id="navbar1">
-						<Link to="#">
+						<Link to="/">
 							<div>
 								<svg
 									xmlns="http://www.w3.org/2000/svg"
@@ -129,16 +131,30 @@ export default function Navbar() {
 													fontWeight: "bold",
 													fontSize: "25px",
 												}}>
-												<Link to={e.loginButton.to}>
-													<button className="loginButton">
-														{e.loginButton.title}
+												{!isAuth && (
+													<Link to={e.loginButton.to}>
+														<button className="loginButton">
+															{e.loginButton.title}
+														</button>
+													</Link>
+												)}
+												{isAuth && (
+													<button
+														onClick={() => {
+															localStorage.removeItem("userToken");
+															window.location.reload();
+														}}
+														className="logoutButton">
+														{e.logoutButton.title}
 													</button>
-												</Link>
-												<Link to={e.registerButton.to}>
-													<button className="registerButton">
-														{e.registerButton.title}
-													</button>
-												</Link>
+												)}
+												{!isAuth && (
+													<Link to={e.registerButton.to}>
+														<button className="registerButton">
+															{e.registerButton.title}
+														</button>
+													</Link>
+												)}
 											</h3>
 											<div>
 												{e.loginMenu.map((el) => (
