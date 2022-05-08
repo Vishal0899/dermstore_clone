@@ -1,0 +1,108 @@
+.sort{
+    /* border: 1px solid green; */
+    padding: 0 0 5% 8%;
+    width: 20%;
+    margin-top: 1%;
+}
+
+.sort button{
+    width : 8%; 
+    height : 20px;
+    margin-right : 10px;
+    background-color: white;
+    border: 1px solid grey;
+}
+
+.SI{
+    display: flex;
+}
+
+.SI p{
+    margin-top: 0;
+}
+
+.Brands, .Preference, .Lips{
+    height: 250px;
+    /* border: 1px solid red; */
+    overflow-y: scroll;
+}
+
+
+
+/* ************************************************************** */
+.product{
+    padding: 0 4% 0 2%;
+    /* border: 1px solid red; */
+    width: 75%;
+}
+
+.HPP{
+    text-align: start;
+}
+
+.Sortby{
+    display : flex;
+}
+
+.Sortby p{
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+.Sortby select{
+    margin-top: 1%;
+    width: 25%;
+    height: 40px;
+    border: 2px solid black;
+}
+
+.PRlist{
+    /* border: 1px solid blue; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    /* grid-template-rows: repeat(10,8%); */
+    grid-gap: 30px;
+}
+
+.ImG{
+    width: 99%;
+    height: 60%;
+}
+
+.TRP{
+    width: 99%;
+    height: 20%;
+    /* border: 1px solid blue; */
+    margin-bottom: 10%;
+}
+
+.QB{
+    width: 99%;
+    height: 20%;
+}
+
+.ATC{
+    width : 100%;
+    height : 100%;
+    background-color: black;
+    color: white;
+    font-size: medium;
+    position:sticky;
+    bottom: 0%;
+}
+
+.wishlist{
+    position: absolute;
+    top: 4%;
+    right: 0%;
+    border-radius: 50%;
+    /* background-color: rgb(179, 174, 174);
+    border: 2px solid black;
+    padding: 10px 10px 3px 10px; */
+    
+}
+
+.IW{
+    position: relative;
+    
+}
