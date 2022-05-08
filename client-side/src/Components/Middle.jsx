@@ -2,8 +2,12 @@ import React, { useState } from 'react'
 import { last, second_extra, SliderData, third, Trending } from './slider'
 import {FaArrowAltCircleRight,FaArrowAltCircleLeft} from "react-icons/fa"
 import "./Middle.css"
+import ReactPlayer from "react-player";
+import Navbar from './Navbar/Navbar';
+import { Footer } from './Footer';
+// import "./AddVideo.css"
 
-const Middle = ({ slides}) => {
+export const Middle = ({ slides}) => {
     const [state, setState] = useState(0)
     const [current , setCurrent] = useState(0)
     
@@ -24,6 +28,7 @@ const Middle = ({ slides}) => {
 
   return (
     <div>
+        <Navbar/>
         
         <div className='upper-box'>
         <FaArrowAltCircleLeft className='left-arrow' onClick={prev} />
@@ -193,9 +198,20 @@ const Middle = ({ slides}) => {
       })}
      
       </div>
+      <div className="Video1" >
+
+            
+        
+       <ReactPlayer  width="100%" height="400px"
+       controls url="https://s1.thcdn.com/productvideo/12902717/dermstore_60sec_16x9_new.mp4"/>
+
+
+       
+    </div>
       </div>
+     <Footer/>
     </div>
   )
 }
 
-export default Middle
+

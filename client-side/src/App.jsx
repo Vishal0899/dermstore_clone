@@ -1,19 +1,21 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-// import Middle from "./Components/Middle";
-import Middle from "./Components/Middle";
-import Navbar from "./Components/Navbar/Navbar";
-import { second_extra } from "./Components/slider";
+import { Cart } from "./Components/cartprovider/cart";
 
+
+import {Middle} from "./Components/Middle"
+import { second_extra } from "./Components/slider";
 
 
 function App() {
   return (
       
     <div >
-   <Navbar/>
-   <Middle slides = {second_extra}/>
- 
+    <Routes>
+      <Route path = "/" element ={<Middle slides={second_extra}/>}/>
+      <Route path="/cart" element = {<Cart/>}/>
+    </Routes>
+  
     </div>
   );
 }
