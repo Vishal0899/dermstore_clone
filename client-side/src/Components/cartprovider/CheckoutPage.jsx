@@ -42,7 +42,7 @@ export const CheckoutPage = () => {
 						<form action="">
 							<span>Email address</span>
 							<br />
-							<input type="text" className="text" />
+							<input type="text" className="text" required />
 							<span>We'll send the purchase receipt to this email.</span>
 							<h3
 								style={{
@@ -50,28 +50,29 @@ export const CheckoutPage = () => {
 								}}>
 								Country/Region
 							</h3>
-							<input type="text" className="text" />
+							<input type="text" className="text" required />
 							<p className="type">Full Name</p>
-							<input type="text" className="text" />
+							<input type="text" className="text" required />
 							<p className="type">Address Search</p>
 							<input
 								type="text"
 								className="text"
 								placeholder="Start typing your address..."
+								required
 							/>
 							<p className="to_active">or Enter Address Manually</p>
 							<div className="display">
 								<p className="type">Address</p>
-								<input type="text" className="text" />
+								<input type="text" className="text" required />
 								<p className="type">Apartment/Suite number</p>
-								<input type="text" className="text" />
+								<input type="text" className="text" required />
 								<p className="type">Town/City</p>
-								<input type="text" className="text" />
+								<input type="text" className="text" required />
 								<p className="type">Zip Code/Postcode</p>
-								<input type="text" className="text" />
+								<input type="text" className="text" required />
 							</div>
 							<p className="type">Contact Number</p>
-							<input type="text" className="text" />
+							<input type="text" className="text" required />
 						</form>
 					</div>
 					<div className="delivery">
@@ -150,7 +151,14 @@ export const CheckoutPage = () => {
 							/>
 						</div>
 					</div>
-					<button className="last_but">SUBMIT MY ORDER</button>
+					<button
+						onClick={() => {
+							alert("Your order is successfully");
+							navigate("/");
+						}}
+						className="last_but">
+						SUBMIT MY ORDER
+					</button>
 				</div>
 				<div className="second_main">
 					<div>

@@ -179,7 +179,7 @@ export default function Navbar() {
 						</div>
 
 						<Link
-							to=""
+							to="/cart"
 							className="link"
 							style={{
 								display: "flex",

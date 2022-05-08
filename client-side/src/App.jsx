@@ -10,6 +10,7 @@ import { ProductPage } from "./Components/productPage/Productpage";
 import { Wishlist } from "./Components/wishlistPage/Wishlist";
 import { CheckoutPage } from "./Components/cartprovider/CheckoutPage";
 import PrivateRoute from "./Components/PrivateRoute";
+import { Cart } from "./Components/cart/Cart";
 
 function App() {
 	return (
@@ -26,6 +27,14 @@ function App() {
 				/>
 				<Route path="/login" element={<Login />} />
 				<Route path="/signUp" element={<SignUp />} />
+				<Route
+					path="/cart"
+					element={
+						<PrivateRoute>
+							<Cart />
+						</PrivateRoute>
+					}
+				/>
 				<Route path="/productPage" element={<ProductPage />} />
 				<Route
 					path="/wishlist"
