@@ -15,7 +15,7 @@
   
 <br />
   
-  <h1>This a a clone of the website https://www.dermstore.com/</h1>
+  <h1>This a a clone of the website dermstore.com</h1>
   
 </div>
 
