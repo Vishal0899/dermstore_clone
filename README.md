@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+<img src="https://worldbranddesign.com/wp-content/uploads/2020/05/2Dermstore-world-brand-design.jpg" width="100%"></img>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align='center'>
+  
+  
+</div>
 
-## Available Scripts
+<br />
 
-In the project directory, you can run:
+---
 
-### `npm start`
+<div align='center'>
+  
+<br />
+  
+<br />
+  
+  <h1>This a a clone of the website https://www.dermstore.com/</h1>
+  
+</div>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br />
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+<br />
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# 🧐 Project philosophy
 
-### `npm run build`
+> Dermstore is a skin care and beauty e-commerce site in the United States. Since December 2020, it is a subsidiary of The Hut Group which is a British e-commerce company.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Read more about the Airbnb app on [the project homepage](https://en.wikipedia.org/wiki/Dermstore).**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# 📒 Blog
 
-### `npm run eject`
+If you are interested in knowing more about this project...like how we made it and in what time then check [this](https://medium.com/@iaishwaryapatil01/project-dermstore-ef822e549f3e) out! 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# 👨‍💻 Tech stack
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Here's a overview of the tech stack the airbnb app uses:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+React | Node.js | Css | Bootstrap | React-Router
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# ✍️ Contributing
 
-## Learn More
+This is a project made by a team of 5 members: <a href="https://github.com/Aishwaryapatil1">Aishwarya Patil<a> | <a href="https://github.com/iMrihan">Mohd Rihan Khan<a> |   <a href="https://github.com/Vishal0899">Vishal Pokale<a> | <a href="https://github.com/Akku-Akash">Akash Kumar<a> | <a href="https://github.com/abhishekgiri-cmd">Abhishek Giri<a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# 💛
