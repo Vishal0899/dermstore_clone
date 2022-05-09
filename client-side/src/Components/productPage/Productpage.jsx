@@ -123,7 +123,7 @@ export const ProductPage = () => {
 	return (
 		<div>
 			<Navbar />
-			<div style={{ width: "100%", display: "flex" }}>
+			<div style={{ width: "100%", display: "flex", marginBottom : "2%" }}>
 				<div className="sort">
 					<div>
 						<h3>Refine</h3>
