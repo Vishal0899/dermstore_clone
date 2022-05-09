@@ -37,7 +37,7 @@ If you are interested in knowing more about this project...like how we made it a
 
 # 👨‍💻 Tech stack
 
-Here's a overview of the tech stack the airbnb app uses:
+Here's a overview of the tech stack the Dermstore uses:
 
 React | Node.js | Css | Bootstrap | React-Router
 
