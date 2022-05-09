@@ -622,7 +622,7 @@ export default function Navbar() {
 							<img
 								width="20px"
 								height="20px"
-								src="https://cdn-icons.flaticon.com/png/512/2511/premium/2511490.png?token=exp=1651758167~hmac=9a91e6ce7813032e814d2499d7a3c325"
+								src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROkQNSKNA7dRtPSl3FvXxQlibTuMNljFswCg&usqp=CAU"
 								alt=""
 							/>
 						</li>
@@ -638,7 +638,7 @@ export default function Navbar() {
 							<img
 								width="20px"
 								height="20px"
-								src="https://cdn-icons.flaticon.com/png/512/3717/premium/3717777.png?token=exp=1651757958~hmac=72b367b0d933a22a8aeb7515a4ce5f03"
+								src="https://www.freeiconspng.com/thumbs/battery-icon/battery-icon-13.png"
 								alt=""
 							/>
 						</li>
